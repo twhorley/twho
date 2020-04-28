@@ -27,7 +27,7 @@ in_fn = in_dir + '2017-01-0118.ctd.txt'
 # difficult-to-use way
 
 # define the output filename
-out_fn = out_dir + 'out_test.png'
+out_fn = out_dir + 'out_testCTD.png'
 
 # open the output file for writing
 outfile = open(out_fn, 'w')
