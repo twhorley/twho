@@ -9,7 +9,7 @@ laptop and on a remote machine - where you might tell it to process
 a larger pile of data.
 
 Usage from the linux command line:
-python use_argparse -a 'hello' -b 6 -v True
+python argparse -a 'hello' -b 6 -v True
 
 Usage from the ipython command line:
 run use_argparse -a 'hello' -b 6 -v True
