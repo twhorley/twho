@@ -76,16 +76,16 @@ SO4 = GC4['SO4 (mM)']
 #fig, ax = plt.subplots(1, 3, sharey=True)   # sharey makes all subplots share a y-axis
 fig, (ax1, ax2, ax3) = plt.subplots(1, 3, sharey=True)  # this way I have more control over each subplot
 
-ax1.plot(Cl,depth)
+ax1.plot(Cl,depth, 'D', color='k', markersize=5)
 ax1.set_xlabel('$Cl^{-} (mM)$')  # or ax1.set_xlabel('Cl (mM)') if I didn't want charge
 ax1.set_ylabel('Depth (cmbsf)')
 ax1.set_xlim([0, 600])
 
-ax2.plot(Br,depth)
+ax2.plot(Br,depth, 'D', color='k', markersize=5)
 ax2.set_xlabel('$Br^{-} (mM)$')
 ax2.set_xlim([0, 1])
 
-ax3.plot(SO4,depth)
+ax3.plot(SO4,depth, 'D', color='k', markersize=5)
 ax3.set_xlabel('$SO_4^{2-} (mM)$')
 ax3.set_xlim([0, 30])
 
