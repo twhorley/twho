@@ -85,7 +85,8 @@ ax2.plot(Br,depth, 'D', color='k', markersize=5)
 ax2.set_xlabel('$Br^{-} (mM)$')
 ax2.set_xlim([0, 1])
 
-ax3.plot(SO4,depth, 'D', color='k', markersize=5)
+ax3.plot(SO4,depth, 'D', color='k', markersize=5)  # in the future, assign variables to color and 
+# markersize so I don't have to type it all out again each time; ex: ms = markersize=5 ?
 ax3.set_xlabel('$SO_4^{2-} (mM)$')
 ax3.set_xlim([0, 30])
 
